@@ -30,7 +30,7 @@ You can choose a city without granting location permission. You can change locat
 
 ## Retention and deletion
 
-The app retains saved game information on the device until it is reset or removed, subject to device backups. Public and private CloudKit records and records of interactions may remain in iCloud after a local reset. The app’s current reset function removes the local saved game and resets notification settings; it does not currently delete all CloudKit records or the local café cache. Uninstalling the app does not by itself guarantee deletion of cloud records.
+The app retains saved game information on the device until it is reset or removed, subject to device backups. Public and private CloudKit records and records of interactions may remain in iCloud after a local reset. The app’s reset function removes the local saved game and resets notification settings; it does not currently delete CloudKit records. Some versions may retain a local café cache after reset. Uninstalling the app does not by itself guarantee deletion of cloud records.
 
 To ask about your data or request deletion, contact appsitetown@gmail.com. We may need information to identify the relevant records and verify the request without asking for your Apple Account password. Some data may need to be retained where required by law or to handle safety and disputes. The actual retention periods and procedure for locating and deleting every type of CloudKit record must be confirmed before this policy is published.
 
